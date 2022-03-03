@@ -1,0 +1,42 @@
+#nav-drawer {
+    right: auto;
+    left: 0;
+}
+[data-region="drawer"] {
+    position: fixed;
+    padding: 20px 20px;
+    width: 285px;
+    top: 50px;
+    height: calc(100% - 50px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 999;
+    background-color: #f2f2f2;
+    -webkit-transition: right .5s ease,left .5s ease;
+    -moz-transition: right .5s ease,left .5s ease;
+    -o-transition: right .5s ease,left .5s ease;
+    transition: right .5s ease,left .5s ease;
+}
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#page-wrapper #page {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#page {
+    margin-top: 0;
+}
+
+#page {
+    margin-top: 50px;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
